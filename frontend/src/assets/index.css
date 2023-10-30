@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  display: block;
+  min-height: 100vh;
+}
+
+.nav-container .container {
+  padding-left: 10px;
+}
+
+.col:hover .image {
+  opacity: 0.3;
+}
+
+.col:hover .middle {
+  opacity: 1;
+}
+
+/* Pagination Styles */
+.pagination .page-item {
+  margin-right: 10px;
+}

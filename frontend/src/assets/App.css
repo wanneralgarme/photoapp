@@ -1,0 +1,29 @@
+/* style root */
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.item-single {
+  height: 400px;
+  padding: 10px;
+  position: relative;
+}
